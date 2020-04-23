@@ -1,0 +1,704 @@
+@media (max-width: 575px) {
+    /*-------------------------
+         menu part strat
+    --------------------------*/
+    #header-part {
+        display: none;
+    }
+    
+    .navbar {
+        padding: 15px !important;
+    }
+    
+    .navbar-brand img {
+        width: auto;
+        height: 22px;
+    }
+    
+    .navbar-toggler i {
+        color: #fff;
+    }
+    
+    .navbar-nav {
+        background: #163a4a;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .navbar ul li {
+        margin: 8px 0px 8px 0px !important;
+    }
+    /*-------------------------
+         menu part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          banner part start
+    --------------------------*/
+    .banner-overlay {
+        padding: 180px 0px 120px;
+    }
+    
+    .banner-content {
+        text-align: center;
+    }
+    
+    .banner-content h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .banner-content h2::after {
+        display: none;
+    }
+    
+    .banner-content h2 {
+        margin: 20px 0px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .banner-content a {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    /*-------------------------
+          banner part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          about part start
+    --------------------------*/
+    #about-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .about-img {
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .about-content {
+        margin-top: 30px;
+    }
+    
+    .about-content p {
+        width: 100%;
+    }
+    /*-------------------------
+          about part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+         service part start
+    --------------------------*/
+    #service-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .service-img {
+        margin-bottom: 30px;
+    }
+    /*-------------------------
+          service part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          proof part start
+    --------------------------*/
+    .proof-overlay {
+        padding: 50px 0px;
+    }
+    
+    .proof-content {
+        display: inherit;
+        text-align: center;
+    }
+    
+    .proof-text p {
+        width: 100%;
+    }
+    
+    .proof-parent {
+        margin-top: 30px;
+    }
+    
+    .proof-child {
+        margin: 0px 5px;
+        padding: 20px 0px;
+    }
+    /*-------------------------
+          proof part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    #testi-part {
+        padding: 60px 0px 30px;
+    }
+    
+    .testi-heading h2 {
+        margin-bottom: 80px !important;
+    }
+    
+    .testi-parent .bamdik,
+    .testi-parent .dandik {
+        top: -55px;
+    }
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+           price part start
+    --------------------------*/
+    #price-part {
+        padding: 60px 0px;
+    }
+    
+    .price-card {
+        margin-bottom: 30px;
+    }
+    /*-------------------------
+           price part end
+    --------------------------*/
+    
+    /*-------------------------
+         footrt part start
+    --------------------------*/
+    #footer-part {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    
+    .footer-logo a img {
+        height: 22px;
+        width: auto;
+    }
+    
+    #footer-part h3 {
+        margin-top: 50px;
+        margin-bottom: 25px !important;
+    }
+    
+    #footer-part .link {
+        margin: 27px 15px 0px;
+    }
+    
+    .contact {
+        text-align: center;
+    }
+    
+    #footer-bottom ul li {
+        margin-right: 0px;
+    }
+    /*-------------------------
+         footer part end
+    --------------------------*/
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*-------------------------
+         menu part strat
+    --------------------------*/
+    #header-part {
+        display: none;
+    }
+    
+    .navbar {
+        padding: 15px !important;
+    }
+    
+    .navbar-brand img {
+        width: auto;
+        height: 22px;
+    }
+    
+    .navbar-toggler i {
+        color: #fff;
+    }
+    
+    .navbar-nav {
+        background: #163a4a;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .navbar ul li {
+        margin: 8px 0px 8px 0px !important;
+    }
+    /*-------------------------
+         menu part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          banner part start
+    --------------------------*/
+    .banner-overlay {
+        padding: 180px 0px 120px;
+    }
+    
+    .banner-content {
+        text-align: center;
+    }
+    
+    .banner-content h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .banner-content h2::after {
+        display: none;
+    }
+    
+    .banner-content h2 {
+        margin: 20px 0px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .banner-content a {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    /*-------------------------
+          banner part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          about part start
+    --------------------------*/
+    #about-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .about-img {
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .about-content {
+        margin-top: 30px;
+    }
+    
+    .about-content p {
+        width: 100%;
+    }
+    /*-------------------------
+          about part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+         service part start
+    --------------------------*/
+    #service-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .service-img {
+        margin-bottom: 30px;
+    }
+    /*-------------------------
+          service part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          proof part start
+    --------------------------*/
+    .proof-overlay {
+        padding: 50px 0px;
+    }
+    
+    .proof-content {
+        display: inherit;
+        text-align: center;
+    }
+    
+    .proof-text p {
+        width: 100%;
+    }
+    
+    .proof-parent {
+        margin-top: 30px;
+    }
+    
+    .proof-child {
+        margin: 0px 5px;
+        padding: 20px 0px;
+    }
+    /*-------------------------
+          proof part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    #testi-part {
+        padding: 60px 0px 30px;
+    }
+    
+    .testi-heading h2 {
+        margin-bottom: 80px !important;
+    }
+    
+    .testi-parent .bamdik,
+    .testi-parent .dandik {
+        top: -55px;
+    }
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+           price part start
+    --------------------------*/
+    #price-part {
+        padding: 60px 0px;
+    }
+    
+    .price-card {
+        margin-bottom: 30px;
+    }
+    /*-------------------------
+           price part end
+    --------------------------*/
+    
+    /*-------------------------
+         footrt part start
+    --------------------------*/
+    #footer-part {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    
+    .footer-logo a img {
+        height: 22px;
+        width: auto;
+    }
+    
+    #footer-part h3 {
+        margin-top: 50px;
+        margin-bottom: 25px !important;
+    }
+    
+    #footer-part .link {
+        margin: 27px 15px 0px;
+    }
+    
+    .contact {
+        text-align: center;
+    }
+    
+    #footer-bottom ul li {
+        margin-right: 0px;
+    }
+    /*-------------------------
+         footer part end
+    --------------------------*/
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*-------------------------
+         menu part strat
+    --------------------------*/
+    #header-part {
+        display: none;
+    }
+    
+    .navbar {
+        padding: 15px !important;
+    }
+    
+    .navbar-brand img {
+        width: auto;
+        height: 22px;
+    }
+    
+    .navbar-toggler i {
+        color: #fff;
+    }
+    
+    .navbar-nav {
+        background: #163a4a;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .navbar ul {
+        justify-content: space-around;
+        flex-direction: row !important;
+    }
+    
+    .navbar ul li {
+        margin: 8px 0px 8px 0px !important;
+    }
+    /*-------------------------
+         menu part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          banner part start
+    --------------------------*/
+    .banner-overlay {
+        padding: 180px 0px 120px;
+    }
+    
+    .banner-content {
+        text-align: center;
+    }
+    
+    .banner-content h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .banner-content h2::after {
+        display: none;
+    }
+    
+    .banner-content h2 {
+        margin: 20px 0px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .banner-content a {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    /*-------------------------
+          banner part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          about part start
+    --------------------------*/
+    #about-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .about-img {
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .about-content {
+        margin-top: 30px;
+    }
+    
+    .about-content p {
+        width: 100%;
+    }
+    /*-------------------------
+          about part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+         service part start
+    --------------------------*/
+    #service-part {
+        padding: 60px 0px 0px;
+    }
+    
+    .service-img {
+        margin-bottom: 30px;
+    }
+    
+    .service-cover i {
+        font-size: 50px;
+    }
+    
+    .service-cover h3 {
+        font-size: 18px;
+    }
+    
+    .service-cover p {
+        font-size: 14px;
+    }
+    /*-------------------------
+          service part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+          proof part start
+    --------------------------*/
+    .proof-overlay {
+        padding: 50px 0px;
+    }
+    
+    .proof-content {
+        display: inherit;
+        text-align: center;
+    }
+    
+    .proof-text p {
+        width: 100%;
+    }
+    
+    .proof-parent {
+        margin-top: 30px;
+    }
+    
+    .proof-child {
+        margin: 0px 5px;
+        padding: 20px 0px;
+    }
+    /*-------------------------
+          proof part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    #testi-part {
+        padding: 60px 0px 30px;
+    }
+    
+    .testi-heading h2 {
+        margin-bottom: 80px !important;
+    }
+    
+    .testi-parent .bamdik,
+    .testi-parent .dandik {
+        top: -55px;
+    }
+    /*-------------------------
+        testimonial part end
+    --------------------------*/
+    
+    
+    /*-------------------------
+           price part start
+    --------------------------*/
+    #price-part {
+        padding: 60px 0px;
+    }
+    
+    .price-card {
+        margin-bottom: 30px;
+    }
+    
+    .price-card ul li a {
+        padding: 10px 15px;
+    }
+    /*-------------------------
+           price part end
+    --------------------------*/
+    
+    /*-------------------------
+         footrt part start
+    --------------------------*/
+    .footer-logo a img {
+        height: 22px;
+        width: auto;
+    }
+    
+    .footer-icon li {
+        margin: 0px 1px;
+    }
+    
+    .footer-icon li a i {
+        font-size: 14px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+   
+    /*-------------------------
+         footer part end
+    --------------------------*/
+    
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .proof-text {
+        width: 400px;
+    }
+    
+    .proof-text p {
+        width: 100%;
+    }
+}
+
+
+
+
+@media (min-width:400px) and  (max-width: 575px) {
+    
+    .service-img {
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+    
+    .price-card {
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+}
+
+
+@media (min-width: 576px) and  (max-width: 767px) {
+    
+    .service-img {
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+    
+    .price-card {
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

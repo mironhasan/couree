@@ -1,0 +1,1009 @@
+/*=========================================
+           COMMON CSS PART START
+==========================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+ul,
+ol {
+    list-style: none;
+    display: inline-block;
+}
+
+p {
+    letter-spacing: 0.5px;
+}
+
+button {
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+span {
+    margin-bottom: 0px !important;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+/*=========================================
+           COMMON CSS PART END
+==========================================*/
+
+
+/*=========================================
+              HEADER PART START
+==========================================*/
+.menu-fixed {
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background: #054e7e;
+    box-shadow: 0px 5px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#header-part {
+    background: #163a4a;
+    padding: 10px 0px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-child {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.contact-child:last-child {
+    margin-right: 0px;
+}
+
+.contact-child i {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.contact-child p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.icon-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-child {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.icon-child:last-child {
+    margin-right: 0px;
+}
+
+.icon-child a i {
+    color: #fff;
+    font-size: 14px;
+}
+/*=========================================
+              HEADER PART END
+==========================================*/
+
+
+/*=========================================
+              MENU PART START
+==========================================*/
+.navbar {
+    padding: 30px 0px !important;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: auto;
+}
+
+.nav-link {
+    padding: 0px !important;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar ul li a:hover {
+    color: #289de8;
+}
+
+.navbar ul li {
+    margin-left: 35px;
+}
+
+.navbar ul li:first-child {
+    margin-left: 0px;
+}
+/*=========================================
+              MENU PART END
+==========================================*/
+
+
+
+/*=========================================
+              BANNER PART START
+==========================================*/
+#banner-part {
+    background: url(../images/banner-img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-overlay {
+    background-image: linear-gradient(rgba(1, 105, 172, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 320px 0px 180px;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 650px;
+}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 60px;
+    position: relative;
+}
+
+.banner-content h2:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+
+.banner-content a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: #0169ac;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.banner-content a:hover {
+    color: #fff;
+}
+/*=========================================
+              BANNER PART END
+==========================================*/
+
+
+/*=========================================
+              ABOUT PART START
+==========================================*/
+#about-part {
+    background: #fff;
+    padding: 100px 0px 0px;
+}
+
+.about-img {
+    margin-right: 50px;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-content h2 {
+    color: #263640;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 15px;
+}
+
+.about-content h2:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 30px;
+    background: #0169ac;
+}
+
+.about-content p {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+    width: 400px;
+}
+
+.about-content p span {
+    display: block;
+    margin-top: 20px;
+}
+
+.about-content a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background: #0169ac;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.about-content a:hover {
+    color: #fff;
+}
+/*=========================================
+              ABOUT PART END
+==========================================*/
+
+
+/*=========================================
+             SERVICE PART START
+==========================================*/
+#service-part {
+    background: #fff;
+    padding: 100px 0px;
+}
+
+.service-heading h2 {
+    color: #263640;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 40px !important;
+}
+
+.service-heading h2:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 30px;
+    background: #0169ac;
+}
+
+.service-img {
+    position: relative;
+}
+
+.service-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.service-img:hover .service-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.service-cover {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 220px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.service-img:hover .service-cover {
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.service-cover i {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.service-cover h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.service-cover p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 220px;
+    margin-top: 10px;
+}
+/*=========================================
+              SERVICE PART END
+==========================================*/
+
+
+/*=========================================
+              PROOF PART START
+==========================================*/
+#proof-part {
+    background: url(../images/proof-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.proof-overlay {
+    background-image: linear-gradient(rgba(1, 105, 172, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 100px 0px;
+}
+
+.proof-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proof-text h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.proof-text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    width: 550px;
+}
+
+.proof-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proof-child {
+    width: 150px;
+    padding: 35px 0px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 30px;
+}
+
+.proof-child i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.proof-child p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+/*=========================================
+              PROOF PART END
+==========================================*/
+
+
+/*=========================================
+          TESTIMONIAL PART START
+==========================================*/
+#testi-part {
+    background: #fff;
+    padding: 100px 0px;
+}
+
+.testi-heading h2 {
+    color: #263640;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 40px !important;
+}
+
+.testi-heading h2:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 30px;
+    background: #0169ac;
+}
+
+.testi-child {
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-bottom-right-radius: 80px;
+    margin: 0px 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.testi-child:hover {
+    border: 1px solid #0169ac;
+}
+
+.testi-child i {
+    color: #0169ac;
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+
+.testi-child p {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.testi-child h3 {
+    color: #0169ac;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.testi-child small {
+    color: #7b7b7b;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 5px;
+}
+
+.testi-child img {
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px auto 0px;
+}
+
+.testi-parent ul li button {
+    display: none;
+}
+
+.testi-parent .dandik {
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.testi-parent .bamdik {
+    position: absolute;
+    top: -80px;
+    right: 55px;
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.testi-parent .dandik:hover,
+.testi-parent .bamdik:hover {
+    background: #0169ac;
+    color: #fff;
+}
+/*=========================================
+           TESTIMONIAL PART END
+==========================================*/
+
+
+/*=========================================
+             PRICE PART START
+==========================================*/
+#price-part {
+    background: rgba(1, 105, 172, 0.1);
+    padding: 100px 0px;
+}
+
+.price-heading h2 {
+    color: #263640;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 40px !important;
+}
+
+.price-heading h2:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 30px;
+    background: #0169ac;
+}
+
+.price-card {
+    background: #fff;
+    padding: 50px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover {
+    background: #0169ac;
+}
+
+.price-card h3 {
+    color: #0169ac;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover h3 {
+    color: #fff;
+}
+
+.price-card h4 {
+    color: #263640;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover h4 {
+    color: #fff;
+}
+
+.price-card p {
+    color: #7b7b7b;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover p {
+    color: #fff;
+}
+
+.price-card p:after {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover p:after {
+    color: #fff;
+}
+
+.price-card ul {
+    margin-top: 20px;
+}
+
+.price-card  ul li {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin: 18px 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover ul li {
+    color: #fff;
+}
+
+.price-card  ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: #0169ac;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.price-card:hover ul li a {
+    color: #0169ac;
+    background: #fff;
+}
+/*=========================================
+             PRICE PART END
+==========================================*/
+
+
+/*=========================================
+             FOOTER PART START
+==========================================*/
+#footer-part{
+    background: #054e7e;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer-logo a img {
+    height: 30px;
+    width: auto;
+}
+
+.footer-details{
+    padding: 30px 0;   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+.footer-icon li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.footer-icon li a i {
+    color: #eee;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+.footer-link h3 {
+    color: #eee;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 50px !important;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-menu ul li {
+    margin-bottom: 15px !important;
+}
+
+.footer-menu ul li:last-child {
+    margin-bottom: 0px !important;
+}
+
+.footer-menu ul li a {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.footer-address {
+    text-align: center;
+}
+
+.footer-address h3 {
+    color: #eee;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 50px !important;
+}
+
+.footer-address ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px !important;
+}
+
+.footer-address ul li:last-child {
+    margin-bottom: 0px !important;
+}
+
+.footer-address ul li i {
+    color: #eee;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.footer-address ul li p {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.footer-address ul li p span {
+    display: block;
+}
+/*=========================================
+             FOOTER PART START
+==========================================*/
+
+
+/*=========================================
+          FOOTER-BOTTOM PART START
+==========================================*/
+#footer-bottom{
+    background: #02436c;
+    padding: 11px 0;
+}
+
+#footer-bottom ul{
+    width: 100%;
+}
+
+#footer-bottom ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: 14px;
+    padding-right: 13px;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 300;
+    color: #bbb;
+}
+
+#footer-bottom ul li span{
+    color: #fff;
+}
+
+#footer-bottom ul li:after{
+    position: absolute;
+    background: #999;
+    width: 1px;
+    height: 100%;
+    content: '';
+    top: 0;
+    right: 0;
+}
+
+#footer-bottom ul li:last-child:after{
+    position: absolute;
+    background: #999;
+    width: 0;
+    height: 100%;
+    content: '';
+    top: 0;
+    right: 0;
+}
+/*=========================================
+          FOOTER-BOTTOM PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
